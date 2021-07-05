@@ -1,0 +1,25 @@
+{
+  "name": "lovegraceyouth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon --experimental-modules index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckdtjs505/lovegraceyouth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckdtjs505/lovegraceyouth/issues"
+  },
+  "homepage": "https://github.com/ckdtjs505/lovegraceyouth#readme"
+}
