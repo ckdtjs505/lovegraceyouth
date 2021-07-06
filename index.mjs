@@ -12,6 +12,8 @@ app.get("/love", (req, res) => {
   res.send("Hello love wrwr");
 });
 
+app.use("/static", express.static("static"));
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
